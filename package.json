@@ -3,14 +3,16 @@
   "version": "5.0.0",
   "private": true,
   "dependencies": {
-    "@mui/material": "latest",
     "@mui/lab": "latest",
+    "@mui/material": "latest",
     "@mui/styled-engine-sc": "latest",
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
+    "moment": "^2.29.4",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "^6.14.1",
     "react-scripts": "latest",
     "styled-components": "latest"
   },
