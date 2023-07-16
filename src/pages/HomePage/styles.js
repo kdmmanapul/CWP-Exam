@@ -1,10 +1,15 @@
 import styled from 'styled-components';
 import {
+    Container,
     Button, 
     Box,
     Typography,
     Input,
-  } from '@mui/material';
+} from '@mui/material';
+
+const TimeTrackerContainer = styled(Container)`
+    margin-top: 50px;
+`;
 
 const TimeTrackerBox = styled(Box)`
     padding: 50px 20px;
@@ -101,6 +106,7 @@ const TypographyWeeklyTime = styled(Typography)`
 `;
 
 export {
+    TimeTrackerContainer,
     TimeTrackerBox,
     MainDivForTimeTracker,
     MainDivForTimeTrackingLeftPart,

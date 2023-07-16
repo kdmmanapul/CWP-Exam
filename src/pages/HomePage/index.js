@@ -3,14 +3,13 @@ import { useNavigate } from 'react-router-dom';
 import moment from 'moment';
 
 // Components
-import { 
-    Container,
+import {
     Select,
     MenuItem,
-    Grid,
-    Typography,
+    Grid
 } from '@mui/material';
 import {
+    TimeTrackerContainer,
     TimeTrackerBox, 
     MainDivForTimeTracker, 
     MainDivForTimeTrackingLeftPart, 
@@ -25,6 +24,7 @@ import {
     TypographyWeeklyTime
 } from './styles';
 import ProjectList from '../../components/ProjectList';
+import NavBar from '../../components/NavBar';
 
 // Image Assets
 import list from '../../assets/svg/list-blue.svg';
@@ -126,7 +126,9 @@ const Homepage = () => {
       };
 
     return (
-        <Container>
+        <React.Fragment>
+        <NavBar userData={userData}/>
+        <TimeTrackerContainer>
             <TimeTrackerBox>
                 <MainDivForTimeTracker>
                     <MainDivForTimeTrackingLeftPart
@@ -183,7 +185,8 @@ const Homepage = () => {
                     ))}
                 </BoxMargin>
             </TimeTrackerBox>
-        </Container>
+        </TimeTrackerContainer>
+        </React.Fragment>
     );
 };
 
