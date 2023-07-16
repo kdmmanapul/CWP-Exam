@@ -16,6 +16,14 @@ npm install
 npm start
 ```
 
+No Authentication -> Just showcase the Flow of the Login/Registration Process
+
+```bash
+Email: test@gmail.com / Any Email 
+Password: tester / Any String/Text
+```
+
+
 ## Libraries and Frameworks Used
 ReactJS
 Material UI

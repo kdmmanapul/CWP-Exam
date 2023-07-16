@@ -1,8 +1,25 @@
 import React, {useState} from 'react';
-import {TextField, FormControlLabel, Checkbox, Link, Typography, Grid, Popover} from '@mui/material';
-import {ContainerSignUp, StyledBox, StyledAvatar, StyledBoxForm, StyledButtonForm, StyledBoxPopover} from './styles';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import { useNavigate } from 'react-router-dom';
+
+// Components
+import {
+    TextField, 
+    FormControlLabel, 
+    Checkbox, 
+    Link, 
+    Typography, 
+    Grid, 
+    Popover
+} from '@mui/material';
+import {
+    ContainerSignUp, 
+    StyledBox, 
+    StyledAvatar, 
+    StyledBoxForm, 
+    StyledButtonForm, 
+    StyledBoxPopover
+} from './styles';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 const SignUpPage = () => {
     const navigate = useNavigate();
