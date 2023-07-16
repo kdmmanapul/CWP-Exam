@@ -25,8 +25,8 @@ Password: tester / Any String/Text
 
 
 ## Libraries and Frameworks Used
-ReactJS
-Material UI
-MomentJS
-Styled-Components
-React Router
+ReactJS  
+Material UI  
+MomentJS  
+Styled-Components  
+React Router  
